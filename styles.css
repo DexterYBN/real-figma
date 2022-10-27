@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    width: 1440px;
+    height: 116px;
+    background: #FAFAFA;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    margin-top: 39px;
+    margin-left: 80px;
+}
+
+.link-box {
+    width: 30%;
+}
+
+.link-box p {
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.button {
+    width: 20%;
+    margin-top: 35px;
+    padding-left: 100px;
+}
+
+.button-box {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Gilroy';
+    width: 150px;
+    height: 43.5px;
+    border: 1px solid #F7941E;
+    color: #F7941E;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.box_1 {
+    display: flex;
+    width: 1440px;
+    height: 700px;
+}
+
+.info-box {
+    width: 50%;
+}
+
+.photo {
+    width: 50%;
+    background-image: url("Background.jpg");
+}
+
+.info-box h2 {
+    font-family: 'Gilroy';
+    font-size: 56px;
+    line-height: 69px;
+    text-align: center;
+    padding: 100px 200px 0 200px;
+}
+
+.info-box h4 {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding: 0 200px;
+}
+
+.button-from-info-box {
+    width: 200px;
+    height: 60px;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #F7941E;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 250px;
+}
+
+.box_2 {
+    display: flex;
+    width: 1440px;
+    height: 600px;
+}
+
+.photo_2 {
+    width: 50%;
+    background-image: url("MediaBackground.png");
+}
+
+.info-box_2 {
+    width: 50%;
+}
+
+.info-box_2 h3 {
+    font-family: 'Gilroy';
+    font-size: 32px;
+    padding-left: 100px;
+    margin-top: 150px;
+}
+
+.info-box_2 h4 {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    padding: 0 50px 0 100px;
+}
+
+.button-from-info-box_2 {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+.box_3 {
+    width: 1440px;
+    height: 820px;
+    justify-content: center;
+}
+
+.title_2 {
+    height: 100px;
+}
+
+.title_2 h3 {
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 32px;
+}
+
+.title_2 h5 {
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 18px;
+}
+
+.under-box_3 {
+    display: flex;
+    width: 1440px;
+    height: 680px;
+    justify-content: space-around;
+}
+
+.pic_1 {
+    display: flex;
+    width: 270px;
+    height: 436px;
+    background-image: url("pic_1.png");
+    background-repeat: no-repeat;
+    box-shadow: -5px -5px 15px;
+}
+
+.pic_1 p {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    margin-top: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-pic_1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    color: #F7941E;
+}
+
+.pic_2 {
+    width: 270px;
+    height: 436px;
+    background: #FAFAFA;
+    background-image: url("pic_2.png");
+    background-repeat: no-repeat;
+}
+
+.pic_2 p {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    margin-top: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pic_3 {
+    width: 270px;
+    height: 436px;
+    background: #FAFAFA;
+    background-image: url("pic_3.png");
+    background-repeat: no-repeat;
+}
+
+.pic_3 p {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    margin-top: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pic_4 {
+    width: 270px;
+    height: 436px;
+    background: #FAFAFA;
+    background-image: url("pic_4.png");
+    background-repeat: no-repeat;
+}
+
+.pic_4 p {
+    font-family: 'Gilroy';
+    font-size: 20px;
+    margin-top: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box_4 {
+    display: flex;
+    width: 1440px;
+    height: 240px;
+    background-color: #F7941E;
+}
+
+.text-block {
+    width: 50%;
+    font-family: 'Gilroy';
+    font-size: 32px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.button-block {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.button_1 {
+    width: 200px;
+    height: 50px;
+    background: #231F20;
+    border-radius: 5px;
+    text-align: center;
+    color: #FAFAFA;
+    font-family: 'Gilroy';
+    font-size: 18px;
+}
+
+.button_2 {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 18px;
+}
+
+.title_4 {
+    text-align: center;
+}
+
+.title_4 h3 {
+    font-family: 'Gilroy';
+    font-size: 32px;
+}
+
+.title_4 h5 {
+    font-family: 'Gilroy';
+    font-size: 18px;
+}
+
+.box_5 {
+    display: flex;
+    width: 1440px;
+    height: 1026px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-text {
+    width: 1170px;
+    height: 370px;
+    background: #231F20;
+    color: #FAFAFA;
+    background-image: url("Media.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.photo-text h5 {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    padding-right: 180px;
+}
+
+.photo-text h1 {
+    font-family: 'Gilroy';
+    font-size: 48px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.photo-text h4 {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    margin-top: 150px;
+    padding-right: 180px;
+}
+
+.text-1 {
+    width: 570px;
+    height: 290px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    margin-right: 15px;
+}
+
+.text-1 h2 {
+    font-family: 'Gilroy';
+    font-size: 24px;
+}
+
+.text-1 h4 {
+    font-family: 'Gilroy';
+    font-size: 18px;
+}
+
+.text-1 h5 {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.text-2 {
+    width: 570px;
+    height: 290px;
+    margin-left: 15px;
+}
+
+.text-2 h2 {
+    font-family: 'Gilroy';
+    font-size: 24px;
+}
+
+.text-2 h4 {
+    font-family: 'Gilroy';
+    font-size: 18px;
+}
+
+.text-2 h5 {
+    font-family: 'Gilroy';
+    font-size: 14px;
+}
+
+.basement {
+    text-align: center;
+}
+
+.line {
+    width: 1000px;
+    border: 1px solid black;
+    margin: 50px 0 50px 250px;
+}
+
+.social {
+    margin-left: 640px;
+}
+
+.gg {
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 14px;
+}
